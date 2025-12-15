@@ -96,10 +96,10 @@ const CONFIG = {
                 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F22de3fcb-d90d-4271-bc01-f815f476122b%2F4FE0A0C0-E487-4C74-BF8E-6F01A27461B8-14186-000008094BC289A6.jpg?table=collection&id=a320a2cc-6ebe-4a8d-95cc-ea94e63bced9&width=200',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '匿名',
             PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'PRO+创作者',
-            PROXIO_TESTIMONIALS_ITEM_URL: 'https://pro-plus.top/''        },
+            PROXIO_TESTIMONIALS_ITEM_URL: 'https://pro-plus.top/'        },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
-                '什么不早点做出来啊大佬，这不比QQ空间强一万倍？',
+                '什么不早点做出来啊大佬，这不比那些卷钱跑路的发卡网站强一万倍？',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0d33d169-f932-41ff-ac6b-88a923c08e02%2F%25E5%25A4%25B4%25E5%2583%258F.jfif?table=collection&id=7787658d-d5c0-4f34-8e32-60c523dfaba3&width=400',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '匿名',
@@ -117,7 +117,7 @@ const CONFIG = {
         },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
-                '呜呜呜，经过一个下午的努力，终于终于搞懂了这个平台是怎么玩的了，非常感谢PRO+，这是我用过的最好用的寄售网站，比那些捐钱跑路的发卡网站强一万倍！！！',
+                '呜呜呜，经过一个下午的努力，终于终于搞懂了这个平台是怎么玩的了，非常感谢PRO+，这是我用过的最好用的寄售网站',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd52f6766-3e32-4c3d-8529-46e1f214360f%2Ffavicon.svg?table=collection&id=7d76aad5-a2c4-4d9a-887c-c7913fae4eed&width=400',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '匿名',
