@@ -91,17 +91,17 @@ const CONFIG = {
     PROXIO_TESTIMONIALS_ITEMS: [
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
-                '良心平台，之前尝试过一些发卡网站，感觉都不如这个，关键是提供自建预览站BLOG，简直是神器！哈哈哈 ',
+                '良心平台，之前尝试过一些发卡网站，感觉都不如这个',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
-                'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F22de3fcb-d90d-4271-bc01-f815f476122b%2F4FE0A0C0-E487-4C74-BF8E-6F01A27461B8-14186-000008094BC289A6.jpg?table=collection&id=a320a2cc-6ebe-4a8d-95cc-ea94e63bced9&width=200',
+                '/avatar.png',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '匿名',
             PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'PRO+创作者',
             PROXIO_TESTIMONIALS_ITEM_URL: 'https://pro-plus.top/'        },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
-                '什么不早点做出来啊大佬，这不比那些卷钱跑路的发卡网站强一万倍？',
+                '什么不早点做出来啊大佬，自建BLOG简直是神器！哈哈哈 ',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
-                'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0d33d169-f932-41ff-ac6b-88a923c08e02%2F%25E5%25A4%25B4%25E5%2583%258F.jfif?table=collection&id=7787658d-d5c0-4f34-8e32-60c523dfaba3&width=400',
+                '/avatar.png',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '匿名',
             PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'PRO+创作者',
             PROXIO_TESTIMONIALS_ITEM_URL: 'https://pro-plus.top/'
@@ -117,16 +117,7 @@ const CONFIG = {
         },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
-                '呜呜呜，经过一个下午的努力，终于终于搞懂了这个平台是怎么玩的了，非常感谢PRO+，这是我用过的最好用的寄售网站',
-            PROXIO_TESTIMONIALS_ITEM_AVATAR:
-                'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd52f6766-3e32-4c3d-8529-46e1f214360f%2Ffavicon.svg?table=collection&id=7d76aad5-a2c4-4d9a-887c-c7913fae4eed&width=400',
-            PROXIO_TESTIMONIALS_ITEM_NICKNAME: '匿名',
-            PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'PRO+创作者',
-            PROXIO_TESTIMONIALS_ITEM_URL: 'https://pro-plus.top/'
-        },
-        {
-            PROXIO_TESTIMONIALS_ITEM_TEXT:
-                '感谢提供这么好的项目哈哈，通过别人的PRO BLOG找来的，新手非常友好！',
+                '呜呜呜，经过一个下午的努力，终于终于搞懂了这个平台是怎么玩的了，非常感谢PRO+，这是我用过的最好用的寄售平台',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 '/avatar.png',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '匿名',
@@ -134,7 +125,16 @@ const CONFIG = {
             PROXIO_TESTIMONIALS_ITEM_URL: 'https://pro-plus.top/'
         },
         {
-            PROXIO_TESTIMONIALS_ITEM_TEXT: '能将自建站和寄售结合起来，这一直是我想找的一种类似发卡网站的模式，但是市面上目前应该还没有，至少除了电报找不到类似的了。',
+            PROXIO_TESTIMONIALS_ITEM_TEXT:
+                '感谢提供这么好的项目哈哈，通过别人的PRO BLOG找来的，新手非常友好',
+            PROXIO_TESTIMONIALS_ITEM_AVATAR:
+                '/avatar.png',
+            PROXIO_TESTIMONIALS_ITEM_NICKNAME: '匿名',
+            PROXIO_TESTIMONIALS_ITEM_DESCRIPTION: 'PRO+创作者',
+            PROXIO_TESTIMONIALS_ITEM_URL: 'https://pro-plus.top/'
+        },
+        {
+            PROXIO_TESTIMONIALS_ITEM_TEXT: '这一直是我想找的一种类似发卡网站的模式，但是市面上目前应该还没有，至少除了电报找不到类似的了。',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 '/avatar.png',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '匿名',
@@ -192,34 +192,34 @@ const CONFIG = {
             name: '友情链接',
             menus: [
                 {
-                    title: 'Tangly的学习笔记',
-                    href: 'https://blog.tangly1024.com'
+                    title: 'PRO+',
+                    href: 'https://www.pro-plus.top'
                 },
                 {
-                    title: 'NotionNext',
-                    href: 'https://www.tangly1024.com'
+                    title: 'PRO+',
+                    href: 'https://www.pro-plus.top'
                 }
             ]
         },
         {
             name: '开发者',
             menus: [
-                { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
+                { title: 'Github', href: '' },
                 {
                     title: '开发帮助',
-                    href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
+                    href: ''
                 },
                 {
                     title: '功能反馈',
-                    href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
+                    href: ''
                 },
                 {
                     title: '技术讨论',
-                    href: 'https://github.com/tangly1024/NotionNext/discussions'
+                    href: ''
                 },
                 {
                     title: '关于作者',
-                    href: 'https://blog.tangly1024.com/about'
+                    href: ''
                 }
             ]
         }],
