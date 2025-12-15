@@ -91,7 +91,7 @@ const CONFIG = {
     PROXIO_TESTIMONIALS_ITEMS: [
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
-                '良心平台，之前尝试过一些发卡网站，感觉都不如这个',
+                '良心平台，要是能直接实现发卡的功能更好，但是目前也很满足了哈哈',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 '/avatar.png',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '匿名',
@@ -99,7 +99,7 @@ const CONFIG = {
             PROXIO_TESTIMONIALS_ITEM_URL: 'https://pro-plus.top/'        },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
-                '什么不早点做出来啊大佬，自建BLOG简直是神器！哈哈哈 ',
+                '什么不早点上线，BLOG风格简直太棒了！',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 '/avatar.png',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '匿名',
@@ -117,7 +117,7 @@ const CONFIG = {
         },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
-                '呜呜呜，经过一个下午的努力，终于终于搞懂了这个平台是怎么玩的了，非常感谢PRO+，这是我用过的最好用的寄售平台',
+                '呜呜呜，经过一个下午的努力，终于成功上线BLOG了，非常感谢，这是我用过的最好用的寄售平台',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 '/avatar.png',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '匿名',
@@ -126,7 +126,7 @@ const CONFIG = {
         },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
-                '感谢提供这么好的项目哈哈，通过别人的PRO BLOG找来的，新手非常友好',
+                '感谢提供这么好的项目，通过别的卖家找来的，新手非常友好',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 '/avatar.png',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '匿名',
@@ -134,7 +134,7 @@ const CONFIG = {
             PROXIO_TESTIMONIALS_ITEM_URL: 'https://pro-plus.top/'
         },
         {
-            PROXIO_TESTIMONIALS_ITEM_TEXT: '这一直是我想找的一种类似发卡网站的模式，但是市面上目前应该还没有，至少除了电报找不到类似的了。',
+            PROXIO_TESTIMONIALS_ITEM_TEXT: '这一直是我想寻找的平台，总算被我找到了，除了电报这个是唯一选择',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 '/avatar.png',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '匿名',
