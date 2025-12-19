@@ -91,7 +91,7 @@ const CONFIG = {
     PROXIO_TESTIMONIALS_ITEMS: [
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
-                '良心平台，要是能直接实现发卡的功能更好，但是目前也很满足了哈哈',
+                '良心平台，强烈推荐！',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 '/avatar.png',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '匿名',
@@ -99,7 +99,7 @@ const CONFIG = {
             PROXIO_TESTIMONIALS_ITEM_URL: 'https://pro-plus.top/'        },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
-                '什么不早点上线，BLOG风格简直太棒了！',
+                'BLOG风格特别不错！',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 '/avatar.png',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '匿名',
@@ -108,7 +108,7 @@ const CONFIG = {
         },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
-                '小白已成功创收，十分感谢，请喝咖啡~',
+                '小白已成功实现创收，请喝咖啡~',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 '/avatar.png',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '匿名',
@@ -117,7 +117,7 @@ const CONFIG = {
         },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
-                '呜呜呜，经过一个下午的努力，终于成功上线BLOG了，非常感谢，这是我用过的最好用的寄售平台',
+                '呜呜呜，经过一个下午的努力，终于把小店上线了，非常感谢，这是我用过的最好用的寄售平台',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 '/avatar.png',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '匿名',
@@ -134,7 +134,7 @@ const CONFIG = {
             PROXIO_TESTIMONIALS_ITEM_URL: 'https://pro-plus.top/'
         },
         {
-            PROXIO_TESTIMONIALS_ITEM_TEXT: '这一直是我想寻找的平台，总算被我找到了，除了电报这个是唯一选择',
+            PROXIO_TESTIMONIALS_ITEM_TEXT: 'PRO BLOG很适合我这种不会做TG频道的人，哈哈哈',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 '/avatar.png',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '匿名',
