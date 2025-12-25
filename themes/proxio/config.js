@@ -117,7 +117,7 @@ const CONFIG = {
         },
         {
             PROXIO_TESTIMONIALS_ITEM_TEXT:
-                '呜呜呜，经过一个下午的努力，终于把小店上线了，非常感谢，这是我用过的最好用的寄售平台',
+                '呜呜呜，经过一个下午的努力，终于把BLOG上线了，非常感谢，这是我用过的最好用的平台',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 '/avatar.png',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '匿名',
@@ -134,7 +134,7 @@ const CONFIG = {
             PROXIO_TESTIMONIALS_ITEM_URL: 'https://pro-plus.top/'
         },
         {
-            PROXIO_TESTIMONIALS_ITEM_TEXT: 'PRO BLOG很适合我这种不会做TG频道的人，哈哈哈',
+            PROXIO_TESTIMONIALS_ITEM_TEXT: '很适合我这种不会做TG的人，哈哈哈',
             PROXIO_TESTIMONIALS_ITEM_AVATAR:
                 '/avatar.png',
             PROXIO_TESTIMONIALS_ITEM_NICKNAME: '匿名',
