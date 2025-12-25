@@ -84,7 +84,7 @@ const CONFIG = {
         '',
 
     // 用户测评处的跳转按钮
-    PROXIO_TESTIMONIALS_BUTTON_URL: '/join',
+    PROXIO_TESTIMONIALS_BUTTON_URL: '/about',
     PROXIO_TESTIMONIALS_BUTTON_TEXT: '立即加入',
 
     // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
