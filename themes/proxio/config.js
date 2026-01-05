@@ -7,7 +7,7 @@ const CONFIG = {
 
     // 英雄区块导航
     PROXIO_HERO_ENABLE: true, // 开启英雄区
-    PROXIO_HERO_TITLE_1: 'PRO BLOG已上线', // 英雄区文字
+    PROXIO_HERO_TITLE_1: '全新PRO BLOG 已上线', // 英雄区文字
     PROXIO_HERO_TITLE_2: '贩售您的作品，获取丰厚回报！', // 英雄区文字
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
     PROXIO_HERO_BUTTON_1_TEXT: 'BLOG演示', // 英雄区按钮
