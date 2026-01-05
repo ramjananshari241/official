@@ -2,13 +2,13 @@
  * 另一个落地页主题
  */
 const CONFIG = {
-    PROXIO_WELCOME_COVER_ENABLE: false, //是否显示页面进入的欢迎文字
+    PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
     PROXIO_WELCOME_TEXT: '欢迎来到PRO+，这是一个属于超级个体的时代', // 欢迎文字，留空则不启用
 
     // 英雄区块导航
     PROXIO_HERO_ENABLE: true, // 开启英雄区
-    PROXIO_HERO_TITLE_1: '贩售您的作品，获取丰厚回报！', // 英雄区文字
-    PROXIO_HERO_TITLE_2: '稳定、宽松的创作环境，免受政策变动和内容审查影响', // 英雄区文字
+    PROXIO_HERO_TITLE_1: 'PRO BLOG已上线', // 英雄区文字
+    PROXIO_HERO_TITLE_2: '贩售您的作品，获取丰厚回报！', // 英雄区文字
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
     PROXIO_HERO_BUTTON_1_TEXT: 'BLOG演示', // 英雄区按钮
     PROXIO_HERO_BUTTON_1_URL:
@@ -24,7 +24,7 @@ const CONFIG = {
 
     // 文章区块
     PROXIO_BLOG_ENABLE: true, // 首页博文区块开关
-    PROXIO_BLOG_TITLE: '怎样开始',
+    PROXIO_BLOG_TITLE: '稳定、宽松的创作环境，免受政策变动和内容审查影响',
     PROXIO_BLOG_COUNT: 4, // 首页博文区块展示前4篇文章
     PROXIO_BLOG_TEXT_1: '仅需四步',
 
