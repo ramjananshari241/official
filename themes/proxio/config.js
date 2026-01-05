@@ -8,11 +8,11 @@ const CONFIG = {
     // 英雄区块导航
     PROXIO_HERO_ENABLE: true, // 开启英雄区
     PROXIO_HERO_TITLE_1: '稳定、宽松的创作环境', // 英雄区文字
-    PROXIO_HERO_TITLE_2: '海外运营，免受政策变动和内容审查影响', // 英雄区文字
+    PROXIO_HERO_TITLE_2: '免受政策变动和内容审查影响', // 英雄区文字
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-    PROXIO_HERO_BUTTON_1_TEXT: '', // 英雄区按钮
+    PROXIO_HERO_BUTTON_1_TEXT: 'BLOG演示', // 英雄区按钮
     PROXIO_HERO_BUTTON_1_URL:
-        'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
+        'https://blog-4mr.pages.dev/', // 英雄区按钮
     PROXIO_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
     PROXIO_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
     PROXIO_HERO_BUTTON_2_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
