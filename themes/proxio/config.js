@@ -10,7 +10,7 @@ const CONFIG = {
     PROXIO_HERO_TITLE_1: '稳定、宽松的创作环境', // 英雄区文字
     PROXIO_HERO_TITLE_2: '免受政策变动和内容审查影响', // 英雄区文字
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-    PROXIO_HERO_BUTTON_1_TEXT: 'BLOG Demo', // 英雄区按钮
+    PROXIO_HERO_BUTTON_1_TEXT: 'BLOG演示', // 英雄区按钮
     PROXIO_HERO_BUTTON_1_URL:
         'https://blog-4mr.pages.dev/', // 英雄区按钮
     PROXIO_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
