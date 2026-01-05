@@ -7,14 +7,14 @@ const CONFIG = {
 
     // 英雄区块导航
     PROXIO_HERO_ENABLE: true, // 开启英雄区
-    PROXIO_HERO_TITLE_1: '稳定、宽松的创作环境', // 英雄区文字
-    PROXIO_HERO_TITLE_2: '免受政策变动和内容审查影响', // 英雄区文字
+    PROXIO_HERO_TITLE_1: '贩售您的作品，获取丰厚回报！', // 英雄区文字
+    PROXIO_HERO_TITLE_2: '稳定、宽松的创作环境，免受政策变动和内容审查影响', // 英雄区文字
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
     PROXIO_HERO_BUTTON_1_TEXT: 'BLOG演示', // 英雄区按钮
     PROXIO_HERO_BUTTON_1_URL:
         'https://blog-4mr.pages.dev/', // 英雄区按钮
-    PROXIO_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
-    PROXIO_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
+    PROXIO_HERO_BUTTON_2_TEXT: '成为创作者', // 英雄区按钮
+    PROXIO_HERO_BUTTON_2_URL: 'https://pro-plus.top/about', // 英雄区按钮
     PROXIO_HERO_BUTTON_2_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
 
     // 英雄区配图，如需隐藏，改为空值即可 ''
