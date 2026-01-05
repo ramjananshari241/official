@@ -29,7 +29,7 @@ const Hero = (props) => {
       id="hero-section"
       className="relative w-full h-screen flex flex-col items-center justify-center bg-black overflow-hidden z-10"
     >
-      {/* 背景图层 (保持原有逻辑) */}
+      {/* 背景图层 */}
       <div className="absolute inset-0 z-0">
         {/* 优先显示 Iframe 背景 */}
         {siteConfig('PROXIO_HERO_BANNER_IFRAME_URL', null, CONFIG) ? (
@@ -46,25 +46,22 @@ const Hero = (props) => {
             }}
           />
         )}
-        {/* 黑色遮罩，确保文字清晰 */}
+        {/* 黑色遮罩 */}
         <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
       </div>
 
       {/* 内容区域 */}
       <div className="relative z-10 flex flex-col items-center text-center px-4 max-w-4xl mx-auto animate-fade-in-up">
         
-        {/* ✨ 动效优化 1：滚动引导 (替代原来的手指 Emoji) */}
+        {/* 滚动引导动效 */}
         <div 
             onClick={scrollToNextSection}
             className="mb-8 cursor-pointer group"
         >
             <div className="flex flex-col items-center gap-2 opacity-80 group-hover:opacity-100 transition-opacity">
-                {/* 动态圆圈 */}
                 <div className="w-12 h-20 rounded-full border-2 border-white/30 flex justify-center p-2 relative backdrop-blur-sm">
-                    {/* 内部滚动的小球 */}
                     <div className="w-1.5 h-3 bg-white rounded-full animate-[bounce_2s_infinite]"></div>
                 </div>
-                {/* 辅助文字 (可选，如果不需要可删除) */}
                 <span className="text-xs text-white/50 tracking-widest font-light group-hover:text-white/80 transition-colors uppercase">
                     Scroll
                 </span>
@@ -82,27 +79,23 @@ const Hero = (props) => {
         {/* 按钮组 */}
         <div className="flex flex-col sm:flex-row gap-6 items-center">
           
-          {/* ✨ 动效优化 2：BLOG Demo 按钮 (扁平 + 科技感) */}
+          {/* 按钮 1 */}
           {siteConfig('PROXIO_HERO_BUTTON_1_TEXT', null, CONFIG) && (
             <Link
               href={siteConfig('PROXIO_HERO_BUTTON_1_URL', null, CONFIG)}
               className="group relative"
             >
-              {/* 按钮主体 */}
               <div className={`
                 relative px-10 py-4 rounded-full 
                 bg-white text-black 
                 font-bold text-lg
                 overflow-hidden
                 transition-all duration-300 ease-out
-                /* 悬停效果：放大、增加字间距、添加白色光晕 */
                 group-hover:scale-105 
                 group-hover:tracking-widest 
                 group-hover:shadow-[0_0_20px_rgba(255,255,255,0.5)]
               `}>
-                {/* 掠光特效 (Shine Effect) */}
                 <div className="absolute top-0 -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white opacity-40 group-hover:animate-shine" />
-                
                 <span className="relative z-10">
                   {siteConfig('PROXIO_HERO_BUTTON_1_TEXT', null, CONFIG)}
                 </span>
@@ -110,7 +103,7 @@ const Hero = (props) => {
             </Link>
           )}
 
-          {/* 按钮 2 (Github) - 保持幽灵按钮风格但稍微优化交互 */}
+          {/* 按钮 2 */}
           {siteConfig('PROXIO_HERO_BUTTON_2_TEXT', null, CONFIG) && (
             <Link
               href={siteConfig('PROXIO_HERO_BUTTON_2_URL', null, CONFIG)}
@@ -137,10 +130,11 @@ const Hero = (props) => {
         </div>
       </div>
 
-      {/* 底部渐变遮罩，让 Hero 区和下方内容自然过渡 */}
       <div className="absolute bottom-0 w-full h-24 bg-gradient-to-t from-black to-transparent pointer-events-none" />
     </header>
   )
 }
 
+// 👇 关键修改：同时支持【命名导出】和【默认导出】
+export { Hero }
 export default Hero
